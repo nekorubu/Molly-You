@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.Signal.DayNight.NoActionBar" parent="TextSecure.LightNoActionBar">
-        <item name="android:windowSplashScreenBackground">@color/core_ultramarine</item>
+        <item name="android:windowSplashScreenBackground">@color/signal_colorBackground</item>
     </style>
 
     <!-- Exists for manual override of Splash theme when setting app theme-->
     <style name="Theme.Signal.DayNight.NoActionBar.LightSplash" parent="Theme.Signal.DayNight.NoActionBar">
-        <item name="android:windowSplashScreenBackground">@color/core_ultramarine</item>
+        <item name="android:windowSplashScreenBackground">@color/signal_light_colorBackground</item>
     </style>
 
     <!-- Exists for manual override of Splash theme when setting app theme-->
     <style name="Theme.Signal.DayNight.NoActionBar.DarkSplash" parent="Theme.Signal.DayNight.NoActionBar">
-        <item name="android:windowSplashScreenBackground">@color/core_ultramarine</item>
+        <item name="android:windowSplashScreenBackground">@color/signal_dark_colorBackground</item>
     </style>
 </resources>
